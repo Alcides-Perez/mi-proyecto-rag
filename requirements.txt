@@ -1,0 +1,8 @@
+streamlit
+cohere
+langchain
+langchain-community
+langchain-cohere
+pypdf
+chromadb
+tiktoken
