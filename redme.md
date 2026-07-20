@@ -4,6 +4,15 @@ Este proyecto consiste en un **Agente de Inteligencia Artificial** diseñado par
 
 ---
 
+## ☁️ Evidencia del Deploy en OCI
+La aplicación se encuentra completamente desplegada y funcional en la nube a través de **Oracle Cloud Infrastructure (OCI)**.
+*   **Enlace Público:** [http://148.116.109.115:8501](http://148.116.109.115:8501)
+*   *Nota: Se adjuntan capturas de pantalla de la interfaz ejecutándose en el servidor en la sección de evidencias del repositorio.*
+*   Imagen del navegador*
+*   Imagen de implementacion en la Nube de OCI*
+*   Instancia del OCI
+
+
 ## 📐 Arquitectura del Sistema
 
 La solución se compone de los siguientes bloques tecnológicos:
@@ -28,14 +37,7 @@ La solución se compone de los siguientes bloques tecnológicos:
    git clone [https://github.com/](https://github.com/)[TU_USUARIO_DE_GITHUB]/[NOMBRE_DE_TU_REPOSITORIO].git
    cd [NOMBRE_DE_TU_REPOSITORIO]
 
-## 🚀 Evidencias
-
 ### Link del Proyecto 
 * Esta corriendo en OCI.
 * [Acceso](http://148.116.109.115:8501/).
 
-### Instalación
-1. Clonar este repositorio:
-   ```bash
-   git clone [https://github.com/](https://github.com/)[TU_USUARIO_DE_GITHUB]/[NOMBRE_DE_TU_REPOSITORIO].git
-   cd [NOMBRE_DE_TU_REPOSITORIO]
