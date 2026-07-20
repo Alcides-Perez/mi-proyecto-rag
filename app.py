@@ -1,4 +1,6 @@
 import os
+os.environ["COHERE_API_KEY"] = "Y8mmhK3VIDC64x8cJqsmdy4HDWoP4QccqgPXsFha"
+
 import streamlit as st
 import cohere
 from langchain_community.document_loaders import PyPDFLoader
@@ -13,8 +15,7 @@ st.write("Hacé tus preguntas sobre los manuales y políticas de la empresa.")
 
 # --- CONFIGURACIÓN DE COHERE ---
 # En producción, es mejor leer la API Key desde variables de entorno
-COHERE_API_KEY = os.environ.get("COHERE_API_KEY", "Y8mmhK3VIDC64x8cJqsmdy4HDWoP4QccqgPXsFha")
-cohere_client = cohere.ClientV2(api_key=COHERE_API_KEY)
+cohere_client = cohere.ClientV2(api_key=os.environ["COHERE_API_KEY"])
 
 # --- PROCESAMIENTO DEL DOCUMENTO (Se ejecuta una sola vez para ahorrar recursos) ---
 @st.cache_resource
