@@ -27,3 +27,15 @@ La solución se compone de los siguientes bloques tecnológicos:
    ```bash
    git clone [https://github.com/](https://github.com/)[TU_USUARIO_DE_GITHUB]/[NOMBRE_DE_TU_REPOSITORIO].git
    cd [NOMBRE_DE_TU_REPOSITORIO]
+
+## 🚀 Evidencias
+
+### Link del Proyecto 
+* Esta corriendo en OCI.
+* [Acceso](http://148.116.109.115:8501/).
+
+### Instalación
+1. Clonar este repositorio:
+   ```bash
+   git clone [https://github.com/](https://github.com/)[TU_USUARIO_DE_GITHUB]/[NOMBRE_DE_TU_REPOSITORIO].git
+   cd [NOMBRE_DE_TU_REPOSITORIO]
